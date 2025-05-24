@@ -3,6 +3,8 @@ const Lawmon = '/Lawmon.png';
 const BookClip = '/BookClip.png';
 const HP = '/3HP.png';
 
+const BASE_IMAGE_URL = "https://webp-api-eta.vercel.app";
+
 const projects = [
 {
     name: "HB's Portfolio",
@@ -33,7 +35,7 @@ const projects = [
         color: "green-text-gradient",
       }
     ],
-    image: MyPortfolio,
+    image: `${BASE_IMAGE_URL}${MyPortfolio}`,
     source_code_link: "https://github.com/leeHB-1007/My_Portfolio",
   },
   {
@@ -62,7 +64,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: Lawmon,
+    image: `${BASE_IMAGE_URL}${Lawmon}`,
     source_code_link: "https://github.com/LawmonProject",
   },
   {
@@ -87,7 +89,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: BookClip,
+    image: `${BASE_IMAGE_URL}${BookClip}`,
     source_code_link: "https://github.com/2024-Winter-Bootcamp-Team-A",
   },
   {
@@ -112,7 +114,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: HP,
+    image: `${BASE_IMAGE_URL}${HP}`,
     source_code_link: "https://github.com/leeHB-1007/3HP_INU_CAPSTONE",
   },
 ];

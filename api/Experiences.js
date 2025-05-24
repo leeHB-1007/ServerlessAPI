@@ -1,12 +1,12 @@
-
 const inu = "/inu.png"; // public 폴더의 파일은 루트 경로(/)부터 시작합니다.
-const techeer = "/techeer.png"; // public 폴더의 파일은 루트 경로(/)부터 시작합니다.
+const techeer = "/Techeer.png"; // public 폴더의 파일은 루트 경로(/)부터 시작합니다.
+const BASE_IMAGE_URL = "https://webp-api-eta.vercel.app";
 
 const experiences = [
   {
     title: "인천대 컴퓨터공학부",
     company_name: "인천대학교",
-    icon: inu,
+    icon: `${BASE_IMAGE_URL}${inu}`,
     iconBg: "#E6DEDD",
     date: "Mar 2020 - present",
     points: [
@@ -18,7 +18,7 @@ const experiences = [
   {
     title: "Techeer",
     company_name: "개발자 커뮤니티",
-    icon: techeer,
+    icon: `${BASE_IMAGE_URL}${techeer}`,
     iconBg: "#ffffff",
     date: "Feb 2025 - present",
     points: [
