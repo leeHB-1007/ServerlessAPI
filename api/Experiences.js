@@ -1,14 +1,12 @@
-// inu와 techeer 아이콘 경로를 실제 파일 경로 또는 URL로 수정해야 합니다.
-// 예시: const inu = '/path/to/inu.png'; 또는 const inu = 'https://example.com/inu.png';
-// 현재 코드에서는 정의되어 있지 않으므로, 실제 사용 시에는 이 부분들을 정의해야 합니다.
-// const inu = "inu_icon_placeholder"; // 실제 아이콘 경로 또는 데이터로 대체하세요.
-// const techeer = "techeer_icon_placeholder"; // 실제 아이콘 경로 또는 데이터로 대체하세요.
+
+const inu = "/inu.png"; // public 폴더의 파일은 루트 경로(/)부터 시작합니다.
+const techeer = "/techeer.png"; // public 폴더의 파일은 루트 경로(/)부터 시작합니다.
 
 const experiences = [
   {
     title: "인천대 컴퓨터공학부",
     company_name: "인천대학교",
-    // icon: inu, // 아이콘 변수가 정의되어 있지 않아 주석 처리합니다. 필요시 주석을 해제하고 변수를 정의하세요.
+    icon: inu,
     iconBg: "#E6DEDD",
     date: "Mar 2020 - present",
     points: [
@@ -20,7 +18,7 @@ const experiences = [
   {
     title: "Techeer",
     company_name: "개발자 커뮤니티",
-    // icon: techeer, // 아이콘 변수가 정의되어 있지 않아 주석 처리합니다. 필요시 주석을 해제하고 변수를 정의하세요.
+    icon: techeer,
     iconBg: "#ffffff",
     date: "Feb 2025 - present",
     points: [
